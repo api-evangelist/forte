@@ -1,9 +1,27 @@
 aid: forte
 name: Forte
-description: Forte is a company surfaced as a portfolio company of a16z, canaan-partners, trinity-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Forte is a Web3 economic infrastructure company building compliance and economic tools
+  for games and digital-asset economies. Its flagship product is the Forte Rules Engine, a
+  free, open-source, EVM-compatible on-chain policy engine that lets smart-contract developers
+  define composable, adaptive rules (KYC gates, OFAC/sanctions screening, vesting schedules,
+  circuit breakers, and other economic guardrails) without hardcoding logic into their
+  contracts. The Rules Engine ships a TypeScript SDK and Solidity client contracts, and is
+  complemented by a ZK Policy Engine for privacy-preserving policy enforcement. Forte is
+  backed by a16z, Canaan Partners, and Trinity Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/forte/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.forte.io/wp-content/uploads/2024/11/Forte_favicon_512.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -14,12 +32,54 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Blockchain
+- Web3
+- Smart Contracts
+- On-Chain Compliance
+- Gaming
+- Digital Assets
+- Rules Engine
+- EVM
 apis: []
+common:
+- type: Website
+  url: https://www.forte.io/
+- type: DeveloperPortal
+  url: https://www.forte.io/developers/
+- type: Documentation
+  url: https://docs.forterulesengine.io/introduction
+- type: APIReference
+  url: https://docs.forterulesengine.io/reference/client/toc
+- type: GettingStarted
+  url: https://docs.forterulesengine.io/quickstart
+- type: Blog
+  url: https://www.forte.io/blog/
+- type: GitHubOrganization
+  url: https://github.com/thrackle-io
+- type: Support
+  url: https://www.forte.io/contact-us/
+- type: TermsOfService
+  url: https://www.forte.io/terms-of-use/
+- type: PrivacyPolicy
+  url: https://www.forte.io/privacy-policy/
+- type: Packages
+  url: packages/forte-packages.yml
+- type: SDKs
+  url: packages/forte-packages.yml
+- type: LLMsTxt
+  url: llms/forte-llms.txt
+- type: DomainSecurity
+  url: security/forte-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

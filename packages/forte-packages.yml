@@ -1,0 +1,47 @@
+generated: '2026-07-19'
+method: searched
+source: https://registry.npmjs.org/ (npm registry API); https://docs.forterulesengine.io/guides/installation
+notes: >-
+  Forte's public developer surface is the open-source Forte Rules Engine. The current official
+  npm scope is @fortefoundation; the older @thrackle-io scope (Thrackle is Forte's development
+  partner) is deprecated on npm but preserved here for provenance. No REST OpenAPI is published
+  — the "API" surface is on-chain Solidity client contracts plus the TypeScript SDK.
+packages:
+- language: typescript
+  registry: npm
+  name: "@fortefoundation/forte-rules-engine-sdk"
+  version: 0.20.5
+  url: https://www.npmjs.com/package/@fortefoundation/forte-rules-engine-sdk
+  repository: https://github.com/thrackle-io/forte-rules-engine-sdk
+  install: npm install @fortefoundation/forte-rules-engine-sdk
+  official: true
+  description: TypeScript SDK for interacting with the Forte Rules Engine (current).
+- language: solidity
+  registry: npm
+  name: "@fortefoundation/forte-rules-engine"
+  version: 0.9.2
+  url: https://www.npmjs.com/package/@fortefoundation/forte-rules-engine
+  repository: https://github.com/thrackle-io/forte-rules-engine
+  install: npm install @fortefoundation/forte-rules-engine
+  official: true
+  description: Forte Rules Engine protocol and Solidity client contracts (current).
+- language: typescript
+  registry: npm
+  name: "@thrackle-io/forte-rules-engine-sdk"
+  version: 0.2.0
+  url: https://www.npmjs.com/package/@thrackle-io/forte-rules-engine-sdk
+  repository: https://github.com/thrackle-io/forte-rules-engine-sdk
+  install: npm install @thrackle-io/forte-rules-engine-sdk
+  official: true
+  deprecated: true
+  description: Legacy TypeScript SDK scope; superseded by @fortefoundation/forte-rules-engine-sdk.
+- language: solidity
+  registry: npm
+  name: "@thrackle-io/forte-rules-engine"
+  version: 0.3.1
+  url: https://www.npmjs.com/package/@thrackle-io/forte-rules-engine
+  repository: https://github.com/thrackle-io/forte-rules-engine
+  install: npm install @thrackle-io/forte-rules-engine
+  official: true
+  deprecated: true
+  description: Legacy protocol/contracts scope; superseded by @fortefoundation/forte-rules-engine.
